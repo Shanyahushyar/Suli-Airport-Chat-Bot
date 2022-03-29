@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+<pattern>^ HELLO ^</pattern>
+<template>Hello there</template>
+</category>
+
+<category>
+<pattern>^ hey ^</pattern>
+<template><srai>Hi there</srai></template>
+</category>
+
+<category>
+<pattern>^ HI ^</pattern>
+<template>Hi there, Nice to meet you 
+<delay>1</delay>
+I'm your Bot Assistant
+ <delay>1</delay>
+     How can I help you?
+     <delay>1</delay>
+     <button>
+            <text>weather</text>
+            <url>https://www.sulairport.krd/Weather.aspx?#down</url>
+        </button>
+        <button>
+            <text>Arrivals</text>
+            <url>https://www.sulairport.krd/Arrivales.aspx#Arrivales</url>
+        </button>
+         <button>
+            <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>
+        </button>
+         <button>
+            <text>Airlines</text>
+            <url>https://www.sulairport.krd/Airlines.aspx?#down</url>
+        </button>
+        
+
+</template>
+</category> 
+
+<category>
+<pattern>^ HOW ARE YOU ^</pattern>
+<template> I'm Fine
+     <delay>1</delay>
+     How can I help you?
+     <delay>1</delay>
+     <button>
+            <text>weather</text>
+            <url>https://www.sulairport.krd/Weather.aspx?#down</url>
+        </button>
+        <button>
+            <text>Arrivals</text>
+            <url>https://www.sulairport.krd/Arrivales.aspx#Arrivales</url>
+        </button>
+         <button>
+            <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>
+        </button>
+         <button>
+            <text>Airlines</text>
+            <url>https://www.sulairport.krd/Airlines.aspx?#down</url>
+        </button>
+        
+
+</template>
+</category> 
+
+
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+     <template>Hello, <star/>.
+     <delay>1</delay>
+     How can I help you?
+     <delay>1</delay>
+     <button>
+            <text>weather</text>
+            <url>https://www.sulairport.krd/Weather.aspx?#down</url>
+        </button>
+        <button>
+            <text>Arrivals</text>
+            <url>https://www.sulairport.krd/Arrivales.aspx#Arrivales</url>
+        </button>
+         <button>
+            <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>
+        </button>
+         <button>
+            <text>Airlines</text>
+            <url>https://www.sulairport.krd/Airlines.aspx?#down</url>
+        </button>
+        
+</template>
+
+</category>
+
+<category>
+    <pattern>IS THERE ANY FLIGHT FROM * TO * ?</pattern>
+    <template>
+        To see thee flights click on:
+         <link>
+            <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>
+            </link>
+    </template>
+</category>
+
+
+<category> 
+    <pattern> ^ WEATHER ^ </pattern>
+    <template>
+      To see the weather:
+         <link>
+            <text>Weather</text>
+            <url>https://www.sulairport.krd/Weather.aspx?#down</url>
+            </link>
+    </template>
+</category>
+
+<category> 
+    <pattern> ^ Arrivals ^ </pattern>
+    <template>
+      To see the Arrivals:
+         <link>
+            <text>Arrivals</text>
+ <url>https://www.sulairport.krd/Arrivales.aspx#Arrivales</url>            </link>
+    </template>
+</category>
+
+<category> 
+    <pattern> ^ Departures ^ </pattern>
+    <template>
+      To see the Departures:
+         <link>
+             <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>  
+ </link>
+    </template>
+</category>
+
+<category> 
+    <pattern> ^ Airline ^ </pattern>
+    <template>
+      To see the Airlines:
+         <link>
+            <text>Airlines</text>
+            <url>https://www.sulairport.krd/Airlines.aspx?#down</url>
+ </link>
+    </template>
+</category>
+
+<category>
+    <pattern>^ LOCATION ^</pattern>
+
+    <template>60 Malik Mahmud Ring Road, Sulaymaniyah
+    <delay>1</delay>
+     <link>
+            <text>AIRPORT LOCATION</text>
+            <url>https://goo.gl/maps/dHc6u795Atp9imRQ8</url>
+            </link>
+            
+            </template>
+</category>
+	
+	<category>
+        <pattern>^ ADDRESS ^</pattern>
+
+    <template>60 Malik Mahmud Ring Road, Sulaymaniyah
+    <delay>1</delay>
+     <link>
+            <text>AIRPORT LOCATION</text>
+            <url>https://goo.gl/maps/dHc6u795Atp9imRQ8</url>
+            </link>
+            
+            </template>
+</category>
+
+<category>
+        <pattern>^ MAP ^</pattern>
+
+    <template>60 Malik Mahmud Ring Road, Sulaymaniyah
+    <delay>1</delay>
+     <link>
+            <text>AIRPORT LOCATION</text>
+            <url>https://goo.gl/maps/dHc6u795Atp9imRQ8</url>
+            </link>
+            
+            </template>
+</category>
+
+<category>
+    <pattern>when will the airplane fly to *</pattern>
+    <template>
+         <link>
+             <text>flght schedual link</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>  
+ </link>
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ contact ^</pattern>
+    <template>
+<ol>
+    <li>Tel:   +964 53 3173322</li>
+    <li>For General inquiries Email: info@sulairport.krd</li>
+    <li>For PPR requests Email: airtrans@sulairport.krd</li>
+</ol>
+</template>
+</category>
+
+<category>
+    <pattern>guide</pattern>
+    <template>
+        <link>
+            <text>Tap to see the guid map</text>
+            <url>https://sulairport.blob.core.windows.net/root/root/images/922102017siadeparture2.jpg</url>
+        </link>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>^ HISTORY ^</pattern>
+    <template>On December 2003 the work was started by one of the specialist Turkish company to construct Sulaimaniyah International Airport according to the ICAO specifications. It is planned to construct the airport through two stages:</template>
+</category>
+
+<category>
+    <pattern>^ AIRPORT ^</pattern>
+    <template>
+        <link>
+            <text> SUL Airport Site</text>
+            <url>https://www.sulairport.krd/</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>^ sulimaniyah ^</pattern>
+    <template>
+        <link>
+            <text> SUL Airport Site</text>
+            <url>https://www.sulairport.krd/</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
