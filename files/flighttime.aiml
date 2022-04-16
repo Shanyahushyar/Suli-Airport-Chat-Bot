@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>Why are flights sometimes delayed for several hours? </pattern>
+    <template>It is sometimes difficult for an airline to estimate how long a delay will be during its early stages.  When a flight delay unexpectedly becomes longer and longer, this is called a “creeping delay.”  During “creeping delays,” unexpected developments can cause a delay to be longer than anticipated.  For example, weather that was supposed to improve can instead become worse, or a mechanical problem can turn out to be more complex than the airline originally thought.</template>
+</category>
+
+
+<category>
+    <pattern>^ delay ^</pattern>
+    <template>It is sometimes difficult for an airline to estimate how long a delay will be during its early stages.  When a flight delay unexpectedly becomes longer and longer, this is called a “creeping delay.”  During “creeping delays,” unexpected developments can cause a delay to be longer than anticipated.  For example, weather that was supposed to improve can instead become worse, or a mechanical problem can turn out to be more complex than the airline originally thought.</template>
+</category>
+
+<category>
+    <pattern>^ flight cancel ^</pattern>
+    <template>It is sometimes difficult for an airline to estimate how long a delay will be during its early stages.  When a flight delay unexpectedly becomes longer and longer, this is called a “creeping delay.”  During “creeping delays,” unexpected developments can cause a delay to be longer than anticipated.  For example, weather that was supposed to improve can instead become worse, or a mechanical problem can turn out to be more complex than the airline originally thought.</template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+<category>
+    <pattern>If my flight is delayed, can I switch to a different flight?</pattern>
+    <template></template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

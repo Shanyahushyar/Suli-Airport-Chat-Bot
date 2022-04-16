@@ -8,6 +8,28 @@
 <li>I don’t understand</li>
 <li>Can you say that more clearly?</li>
 </random>
+<delay>1</delay>
+I'm your Bot Assistant
+ <delay>1</delay>
+     How can I help you?
+     <delay>1</delay>
+     <button>
+            <text>weather</text>
+            <url>https://www.sulairport.krd/Weather.aspx?#down</url>
+        </button>
+        <button>
+            <text>Arrivals</text>
+            <url>https://www.sulairport.krd/Arrivales.aspx#Arrivales</url>
+        </button>
+         <button>
+            <text>Departures</text>
+            <url>https://www.sulairport.krd/Departures.aspx#Departures</url>
+        </button>
+         <button>
+            <text>Airlines</text>
+            <url>https://www.sulairport.krd/Airlines.aspx?#down</url>
+        </button>
+        
 </template>
 </category>
 </aiml>

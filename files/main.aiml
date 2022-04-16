@@ -154,7 +154,7 @@ I'm your Bot Assistant
 <category>
     <pattern>^ LOCATION ^</pattern>
 
-    <template>60 Malik Mahmud Ring Road, Sulaymaniyah
+    <template>The airport is located west of Sulaymaniyah city at 15 km distance from the city center.
     <delay>1</delay>
      <link>
             <text>AIRPORT LOCATION</text>
@@ -167,7 +167,7 @@ I'm your Bot Assistant
 	<category>
         <pattern>^ ADDRESS ^</pattern>
 
-    <template>60 Malik Mahmud Ring Road, Sulaymaniyah
+    <template>The airport is located west of Sulaymaniyah city at 15 km distance from the city center.
     <delay>1</delay>
      <link>
             <text>AIRPORT LOCATION</text>
@@ -223,9 +223,8 @@ I'm your Bot Assistant
 </category>
 
 
-
 <category>
-    <pattern>^ HISTORY ^</pattern>
+       <pattern>^ HISTORY ^</pattern>
     <template>On December 2003 the work was started by one of the specialist Turkish company to construct Sulaimaniyah International Airport according to the ICAO specifications. It is planned to construct the airport through two stages:</template>
 </category>
 
@@ -249,8 +248,6 @@ I'm your Bot Assistant
     </template>
 </category>
 
-<category>
-    <pattern></pattern>
-    <template></template>
-</category>
+
+
 </aiml>
