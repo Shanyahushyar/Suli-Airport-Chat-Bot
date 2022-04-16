@@ -1,6 +1,5 @@
 # Suli-Airport-Chat-Bot
 
 
-![R](https://user-images.githubusercontent.com/95575258/163689843-3a359c20-74cc-4fce-9881-433f16d0c657.jpg)
 
-
+![R](https://user-images.githubusercontent.com/95575258/163689883-c97cca47-f5e7-4c49-812b-691e3f6ee191.jpg)
