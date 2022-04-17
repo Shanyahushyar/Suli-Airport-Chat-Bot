@@ -23,16 +23,116 @@
 
 <category>
     <pattern>If my flight is delayed, can I switch to a different flight?</pattern>
-    <template></template>
+    <template>Possibly.  If your flight is delayed, you can try to arrange another flight on your airline.  It is sometimes easier to make such arrangements by calling the airline, through the airline’s website or mobile application, or via social media.  Before you decide to switch flights, check if the airline will charge you a fee and/or a higher fare for changing your reservation.  </template>
 </category>
 
 
+<category>
+    <pattern>^ switch flight ^</pattern>
+    <template>Possibly.  If your flight is delayed, you can try to arrange another flight on your airline.  It is sometimes easier to make such arrangements by calling the airline, through the airline’s website or mobile application, or via social media.  Before you decide to switch flights, check if the airline will charge you a fee and/or a higher fare for changing your reservation.  
+
+    <delay>3</delay>
+    If you find a flight with an available seat on another airline, you can ask the first airline to transfer your ticket to the alternative airline – this practice could save you money by avoiding a fare increase.  However, there are no federal regulations requiring airlines to put you on another airline’s flight or reimburse you if you purchase a ticket on another airline.  Also, keep in mind that changing flights and airlines becomes more difficult and time consuming if you have checked bags.
+</template>
+</category>
+
+<category>
+    <pattern>^ If my flight is cancelled, can I go to another airline’s flight? ^</pattern>
+    <template>Yes.  While airlines are not required to put you on another airline’s flight, they can and sometimes do, so it does not hurt to politely ask your airline if it will transfer your ticket to another airline that has a flight with available seats. 
+ </template>
+</category>
 
 
+<category>
+    <pattern>^ another airline’s flight ^</pattern>
+    <template>Yes.  While airlines are not required to put you on another airline’s flight, they can and sometimes do, so it does not hurt to politely ask your airline if it will transfer your ticket to another airline that has a flight with available seats. 
+ </template>
+</category>
+<category>
+    <pattern>^ flight is cancelled ^</pattern>
+    <template>Ask the airline or check online to see if another carrier has open seats and then ask if the first airline will transfer your ticket to that carrier.  Remember, however, that airlines are not required to do this.  Also, be aware that finding available seats on another airline’s flight may be difficult, especially during holidays and other peak travel times.</template>
+</category>
 
 
+<category>
+    <pattern>^ At What Point Do Flights Get Cancelled Due to Weather? ^</pattern>
+    <template>
+        <ul>
+            <li>FOG</li>
+            <li>ICE PILE-UP</li>
+            <li>HIGH WINDS</li>
+            <li>HEAVY RAIN</li>
+
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ in which weather the flight will cancel ^</pattern>
+    <template>
+        <ul>
+            <li>FOG</li>
+            <li>ICE PILE-UP</li>
+            <li>HIGH WINDS</li>
+            <li>HEAVY RAIN</li>
+
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ is flight cancel because of weather ^</pattern>
+    <template>yes, Oftentimes, unless the airline is truly at fault, extreme and inclement weather is to blame for delayed flights that become cancellations. Here are 4 of the most common weather events that will ground your flight for the foreseeable future.  
+          <delay>1</delay>
+<ul>
+            <li>FOG</li>
+            <li>ICE PILE-UP</li>
+            <li>HIGH WINDS</li>
+            <li>HEAVY RAIN</li>
+
+        </ul></template>
+</category>
+
+<category>
+    <pattern>^ wheather when cancel flight ^</pattern>
+    <template>
+        <ul>
+            <li>FOG</li>
+            <li>ICE PILE-UP</li>
+            <li>HIGH WINDS</li>
+            <li>HEAVY RAIN</li>
+
+        </ul>
+    </template>
+</category>
 
 
+<category>
+    <pattern>^ flight available ^</pattern>
+    <template>
+        Yes
+       
+        <delay>2</delay>
+           Do you have a Reservation?
+        <reply>
+            <text>YES</text>
+            <postback>yes</postback>
+            
+        </reply>
+        
+         <reply>
+            <text>NO</text>
+            <postback>no</postback>
+        </reply>
+        </template>
+</category>
+<category>
+    <pattern></pattern>
+    <template>
+        NO
+        <that>uuuuuuuuu</that>
+    </template>
+</category>
 
 
 

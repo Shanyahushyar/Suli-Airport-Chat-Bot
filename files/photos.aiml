@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category>
+    <pattern>airport photo</pattern>
+    <template>
+
+<image>https://user-images.githubusercontent.com/95575258/163692768-0aedbfaf-f18c-4ffa-9ffc-3485c9935d45.jpg</image>
+
+
+</template>
+</category>
+
+
+<category>
+    <pattern>video</pattern>
+    <template>
+        <video>https://youtu.be/HvWRQ3w9mU0</video>
+    </template>
+</category>
+
+</aiml>
